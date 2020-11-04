@@ -14,8 +14,8 @@ export class Card extends Component {
           </div>
           <div className="col-md-4">
           <div className="card-body">
-              <button type="button" className="btn btn-outline-success mr-1">Edit</button>
-              <button type="button" className="btn btn-outline-danger">Delete</button>
+              <button type="button" className="btn btn-outline-success mr-1" onClick={() => this.props.update(this.props.data)}>Edit</button>
+              <button type="button" className="btn btn-outline-danger" onClick={() => this.props.remove(this.props.data.id)}>Delete</button>
           </div>
           </div>
         </div>

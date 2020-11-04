@@ -1,34 +1,3 @@
 {
-  "todo": [
-    {
-      "id": 1,
-      "title": "Menulis resume MK keamanan data",
-      "desc": "format penulisan ada di google classroom, dikerjakan secara berkelompok",
-      "deadline": "23 januari 2020 jam 23:59"
-    },
-    {
-      "id": 2,
-      "title": "Kerjakan Latihan MK Manajemen Informasi",
-      "desc": "Di tulis dalam word",
-      "deadline": "25 januari 2020 jam 23:59"
-    },
-    {
-      "id": 3,
-      "title": "Project web kasir",
-      "desc": "",
-      "deadline": "24 April 2020 jam 08:00"
-    },
-    {
-      "id": 4,
-      "title": "Project web",
-      "desc": "",
-      "deadline": "24 April 2020 jam 08:00"
-    },
-    {
-      "id": 5,
-      "title": "Project web kasir",
-      "desc": "",
-      "deadline": "24 April 2020 jam 08:00"
-    }
-  ]
+  "todo": []
 }
