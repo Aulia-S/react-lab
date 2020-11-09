@@ -1,0 +1,7 @@
+.card-title .title{
+  color: inherit !important;
+}
+
+.card-title .title:hover{
+  text-decoration: none;
+}

@@ -20,7 +20,11 @@ class App extends React.Component {
   }
 
   renderCard(todo){
-    return <Card key={todo.id} data={todo} remove={id => this.handleRemove(id)} update={data => this.handleUpdate(data)}/>
+    return <Card 
+      key={todo.id} data={todo} 
+      remove={id => this.handleRemove(id)} 
+      update={data => this.handleUpdate(data)}
+    />
   }
 
   renderForm(){
@@ -92,7 +96,7 @@ class App extends React.Component {
       isDataUpdate: true
     });
   }
-
+  
   componentDidMount(){
     this.getDataFromAPI();
   }

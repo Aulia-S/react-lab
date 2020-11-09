@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import '../css/Card.css';
 
 export class Card extends Component {
   render() {
@@ -7,7 +9,7 @@ export class Card extends Component {
         <div className="row no-gutters">
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">{this.props.data.title}</h5>
+              <h5 className="card-title"><Link to={`/detail-todo/${this.props.data.id}`} className='title'>{this.props.data.title}</Link></h5>
               <p className="card-text">{this.props.data.desc}</p>
               <p className="card-text"><small className="text-muted">{this.props.data.deadline}</small></p>
             </div>
@@ -24,5 +26,5 @@ export class Card extends Component {
   }
 }
 
-export default Card
+export default Card;
 
